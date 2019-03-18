@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import './App.css'
-import InputSearch from './InputSearch'
+import Calculator from './Calculator'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <InputSearch placeholder="test" testing />
+          <Calculator placeholder="Result" disabled />
         </header>
       </div>
     )
